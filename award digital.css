@@ -1,0 +1,358 @@
+body {
+    font-family: sans-serif;
+    position: absolute;
+}
+
+.nav-bar {
+    background-color: rgb(63, 63, 83);
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    padding: 10px 5px 10px 600px ;
+}
+
+.nav-bar a {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 0 0 0 50px;
+
+}
+
+a:hover {
+    color: rgb(62, 62, 175);
+}
+
+
+.nav-bar button {
+    padding: 8px;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(202, 136, 14);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-bar input {
+    padding: 6px;
+    font: 15px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+input:hover {
+    background-color: rgb(62, 62, 175);
+}
+
+.top-text h1 {
+    font-size: 30px;
+    color: rgb(31, 105, 129);
+}
+.top-text ul {
+    font-size: 25px;
+    line-height: 40px;
+    color: rgb(66, 64, 64);
+}
+
+.top {
+    display: flex;
+    gap: 200px;
+    margin: 50px 200px;
+}
+
+.screen {
+    text-align: justify;
+    font-size: 16px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.circles {
+    display: flex;
+}
+
+.circles .box {
+    width: 10px;
+    height: 10px;
+    background-color: blueviolet;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.boxes {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+
+.middle p {
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.middle p span {
+    color: orange;
+}
+
+.second-phase {
+    display: flex;
+    gap: 100px;
+    margin: 0 15%;
+    /* border: 1px solid black; */
+    justify-content: center;
+}
+
+/* .second-phase .img2 {
+    border: 1px solid black;
+} */
+
+.second-phase .text2 {
+    font-size: 20px;
+    /* border: 1px solid black; */
+    line-height: 30px;
+    padding: 10px;
+    text-align: justify;
+
+}
+
+.second-phase button {
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(95, 154, 173);
+    box-shadow: wheat;
+    color: white;
+    cursor: pointer;
+}
+
+.button:focus {
+    box-shadow: orange;
+}
+
+button:hover {
+  background-color: rgb(62, 62, 175);
+}
+
+
+.second-phase h1 span {
+    color: orange;
+}
+
+.third-phase {
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(7, 141, 194);
+    margin: 0;
+    padding: 40px 200px;
+}
+
+.third-phase h1 {
+    font-size: 40px;
+    color: white;
+    justify-self: center;
+    margin: 0%;
+}
+.third {
+    display: flex;
+    gap: 80px;
+    color: white;
+    margin: 50px 5px 5px 5px;
+}
+.third h1 {
+    font-size: 30px;
+    justify-self: left;
+    margin: 0%;
+    padding: 0;
+
+}
+
+.third p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.col-3 {
+    display: flex;
+    margin: 80px 70px 5px 40px;
+}
+
+
+
+.col-3 .blue {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: -80px -80px;
+    border-radius: 200px;
+    display: flex;
+    opacity: 0.1;
+}
+
+.col-4, .col-5 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.bty {
+    display: grid;
+}
+
+.bty button {
+    padding: 30px;
+    width: 60%;
+    font-size: 25px;
+    margin: 10px 0;
+    font-weight: bolder;
+    justify-self: center;
+    border-radius: 5px;
+    box-shadow: rgb(97, 95, 95);
+}
+
+.fourth-phase h1 {
+    font-size: 35px;
+    color: rgb(77, 73, 73);
+    justify-self: center;
+}
+
+.fourth-phase p {
+    font-size: 25px;
+    justify-self: center;
+    color: rgb(77, 73, 73);
+    font-weight: bold;
+}
+
+.fourth-phase h1 span {
+    color: orange;
+}
+
+.fourth-phase1 h1{
+    font-size: 50px;
+    justify-self: center;
+    margin: 20px 0;
+
+}
+
+.fourth-phase1 p {
+    font-size: 20px;
+    justify-self: center;
+    margin: 0 300px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.fourth-phase2 {
+    display: flex;
+    justify-content: center;
+}
+
+.bxs {
+    width: 300px;
+    height: 250px;
+    padding: 3px 6px;
+    justify-self: center;
+    margin: 10px;
+    box-shadow: 5px solid white;
+    background-color: 10px solid white;
+}
+
+.fifth-phase {
+    background-color: rgba(8, 178, 245, 0.918);
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    margin: 0%;
+    padding: 80px;
+}
+
+.fifth-phase h1, p {
+    justify-self: center;
+}
+
+.last-phase {
+    margin: 50px 100px;
+    justify-content: center;
+}
+
+.last-phase h1 {
+    justify-self: center;
+    font-size: 40px;
+}
+
+.last-phase p {
+    font-size: 30px;
+    color: blue;
+    justify-self: center;
+}
+
+.last-phase1 {
+    display: flex;
+    gap: 50px;
+    margin-left: 100px;
+}
+
+.last-phase1 input {
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 7px;
+    width: 400px;
+}
+
+.last-phase1 label {
+  color: #ccc;
+  font-size: 14px;
+  display: block;
+  margin: 20px 0 5px 20px;
+}
+
+.last-phase2 {
+    margin: 0 0 0 200px;
+}
+
+.last-phase2 input {
+    padding: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 850px;
+    justify-self: center;
+    margin: 0%;
+}
+
+.last-phase2 label {
+    color: #ccc;
+    font-size: 14px;
+    display: block;
+    margin: 20px 0 5px 20px;
+}
+
+.last-phase2 button {
+    display: block;
+    padding: 20px;
+    width: 200px;
+    border-radius: 6px;
+    margin: 20px 0;
+}
+
+.footer {
+    background-color: rgb(71, 71, 75);
+    padding: 20px;
+    text-align: center;
+    margin: 0%;
+    color: rgb(207, 192, 192);
+}
+
+.footer  h6{
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+
+}

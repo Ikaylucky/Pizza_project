@@ -1,0 +1,477 @@
+body {
+    font-family: sans-serif;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+}
+.sec1 {
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    background-color: red;
+    
+}
+
+.bar {
+    margin-top: 20px;
+}
+
+.logo {
+    margin-top: 10px;
+    position: relative;
+    left: 50px;
+}
+
+.bar a {
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.icons {
+    margin-right: 10px;
+    margin-top: 20px;
+
+}
+
+.icons a {
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.sec2 {
+    display: flex;
+    background-color: red;
+    gap: 0;
+}
+
+.text-sec {
+    margin-left: 110px;
+    margin-right: 0%;
+
+}
+
+
+.text-sec h1 {
+    font-size: 200px;
+    color: white;
+    line-height: 200px;
+    margin-top: -40px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 145px;
+}
+
+.text-sec h2 {
+    font-size: 70px;
+    color: rgb(236, 201, 110);
+    margin-top: 150px;
+    font-family: "Great Vibes";
+    position: relative;
+    left: 150px;
+
+}
+
+
+.btn button {
+    padding: 10px;
+    font-size: 17px;
+    width: 150px;
+    border-radius: 15px;
+    margin-right: 15px;
+    position: relative;
+    left: 150px;
+
+}
+
+.ibtn button {
+    background-color:rgb(236, 201, 110);
+}
+
+.btn button:focus {
+  box-shadow: 0 0 12px 3px blue;
+}
+
+
+.sec3 {
+    background-color: gainsboro;
+    
+}
+
+.sec3 h3, h2, p {
+    margin-top: 3px;
+    justify-self: left;
+    line-height: 25px;
+}
+.sec3 h3 {
+    color: rgb(170, 12, 12);
+    font-family: dancing 'Courier New', Courier, monospace;
+}
+
+.col-1, .col-2 {
+    display: flex;
+    gap: 40px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+
+.row, .row1 {
+    display: flex;
+    margin: 25px 10px;
+    justify-content: center;
+    background-color: white;
+    padding: 20px 15px;
+}
+
+.sec4 {
+    background-color: red;
+}
+
+.sec4 p, h3 {
+    justify-self: center;
+    margin-bottom: 0;
+    margin-top: 0%;
+}
+
+.sec4 p {
+    color: rgb(212, 181, 103);
+    font-size: 15px;
+
+}
+
+.col-3, .col-4 {
+    display: flex;
+    margin-left: 40px;
+    padding-left: 400px;
+    padding-right: 400px;
+    
+
+}
+
+
+.col-3 .row2 h3, .col-4 .row3 h3 {
+    color: white;
+    justify-self: center;
+    font-family: "Great Vibes";
+    font-size: 30px;
+}
+
+.row2 {
+    border: 2px dotted goldenrod;
+    margin-left: 40px;
+    padding: 20px;
+    gap: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    
+}
+
+.row3 {
+    border: 2px dotted goldenrod;
+    margin-left: 40px;
+    padding: 20px;
+    gap: 30px;
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+
+
+.sec5 {
+    background-color: rgb(201, 183, 183);
+}
+
+.sec5 h2 {
+    justify-self: center;
+    margin: 0%;
+}
+
+.sec5 span h2 {
+    text-decoration: overline red;
+}
+.sec5 h4 {
+    justify-self: center;
+    padding-top: 30px;
+    margin: 0%;
+    font-family: "Great Vibes";
+    color: rgb(170, 12, 12);
+    font-size: 35px;
+}
+
+.col-5, .col-6 {
+    display: flex;
+    margin-left: 40px;
+    padding-left: 450px;
+    padding-right: 450px;
+
+}
+
+.col-5 .row4 h4, h3, .col-6 .row5 h4, h3 {
+    justify-self: left;
+    
+}
+
+.col-5 .row4 h4, .col-6 .row5 h4 {
+    color: rgb(170, 12, 12);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+
+
+.row4 {
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 40px;
+    padding: 10px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    gap: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.row5 {
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 40px;
+    padding: 10px;
+    gap: 30px;
+    padding-top: 0%;
+
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+
+.prize {
+    display: flex;
+    gap: 100px;
+}
+
+.prize button {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bolder;
+    color: red;
+}
+
+
+.sec6 {
+    background-color: red;
+    display: flex;
+    gap: 60px;
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 400px;
+    padding-right: 500px;
+    padding-bottom: 80px;
+
+
+}
+
+
+.text-section h4 {
+    color: rgb(201, 186, 104);
+    font-family: "Great Vibes";
+    font-size: 40px;
+    margin-bottom: 0%;
+
+}
+
+.text-section h3 {
+    color: white;
+    font-size: 30px;
+    margin: 0%;
+}
+
+.text-section p {
+    color: white;
+    font-size: 15px;
+}
+
+
+.delivery {
+    display: flex;
+    gap: 20px;
+}
+
+.dev {
+    border: 1px dotted;
+    padding: 15px;
+    width: 100px;
+    height: 60px;
+}
+
+.dev i {
+    color: goldenrod;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.dev p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.sec7 {
+    background-color: rgb(201, 183, 183);
+}
+
+.testimonial {
+    display: flex;
+    gap: 20px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.txt1 {
+    display: flex;
+}
+
+.txt-img img {
+    border-radius: 60px;
+}
+
+.txt {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.txt-text{ 
+    padding: 7px;
+}
+
+
+.txt p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.txt-text h4{
+    line-height: 0;
+    padding: 0%;
+    font-family: "Great Vibes";
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.txt-text h6{
+    line-height: 0;
+    padding: 0;
+    margin-top: 18px;
+    color: rgb(202, 74, 74);
+}
+
+.sec7 h3 {
+    justify-self: center;
+    margin: 0%;
+    font-size: 35px;
+}
+
+.sec7 h5 {
+    justify-self: center;
+    padding-top: 30px;
+    margin: 0%;
+    font-family: "Great Vibes";
+    font-size: 35px;
+    color: rgb(170, 12, 12);
+}
+
+
+
+.sec8 {
+    background-color: rgb(19, 19, 22);
+    padding-left: 400px;
+    padding-right: 500px;
+    padding-bottom: 50px;
+    padding-top: 80px;
+    background-image: url(banner-4.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 500px 350px;
+}
+
+.rite {
+    display: flex;
+    color: white;
+    gap: 500px;
+    margin-bottom: 0%;
+    margin: 0%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.rites {
+    padding: 0%;
+    margin: 0%;
+}
+
+.rite-btm {
+    display: flex;
+    color: white;
+    gap: 80px;
+
+}
+
+.rite-btms h3 {
+    margin-bottom: 30px;
+    font-family: "Great Vibes";
+    font-size: 30px;
+}
+.rite-btms a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 14px;
+}
+
+.rite-btmss a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 12px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+
+
+.rite-btms  ul li{
+    font-size: 14px;
+    list-style: none;
+    justify-content: left;
+}
+
+.btm {
+    display: flex;
+    gap: 730px;
+    padding: 10px;
+    border-top: 1px solid white;
+    margin-top: 50px;
+}
+
+.btm h6 {
+    color: white;
+    margin-top: 0%;
+    padding: 0%;
+}
+
+.btm .lts a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}

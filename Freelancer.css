@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    position: absolute;
+    background-image: url(b-image.webp);
+}
+
+.nav-bar {
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    margin-top: 100px;
+    padding: 10px 5px 10px 600px ;
+}
+
+.nav-bar a {
+    color: blue;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bolder;
+    justify-content: space-between;
+    margin: 0 0 0 50px;
+}
+
+.nav-bar button {
+    padding: 8px;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(202, 136, 14);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-bar input {
+    padding: 6px;
+    font: 17px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+.img-sec {
+    display: flex;
+    gap: 100px;
+    margin: 50px 50px;
+    color: black;
+    justify-content: center;
+}
+
+.img {
+  mix-blend-mode: luminosity;
+  opacity: 0.9;
+  border-radius: 8px;
+  border: none;
+  margin-left: 50px;
+}
+
+.img img {
+    border-radius: 8px;
+    border: none;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+
+}
+
+p {
+    font-size: 30px;
+    color: white;
+}

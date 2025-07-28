@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    position: absolute;
+}
+
+.nav-bar {
+    background-color: black;
+    display: flex;
+    gap: 50px;
+
+}
+
+.nav-bar .logo {
+    margin: -15px 10px;
+    padding: 0;
+}
+
+.nav-bar input {
+    padding: 15px;
+    margin: 10px;
+    width: 1000px;
+    height: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.nav-bars {
+    background-color: rgb(98, 98, 204);
+    display: flex;
+    gap: 850px;
+    padding: 15px;
+}
+
+
+.nav-bars a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-size: 20px;
+
+}
+
+
+.img-section1 button {
+    display: flex;
+    width: 80%;
+    border-color: 5px solid white;
+    justify-content: center;
+    border-radius: 7px;
+    margin: 0%;
+    font-size: 20px;
+    margin-left: 200px;
+    font-weight: bold;
+    margin-top: -80px;
+}
+
+.img-section button a {
+    text-decoration: none;
+    padding: 20px 0;
+    font-size: 20px;
+}
